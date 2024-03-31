@@ -1,0 +1,614 @@
+/*==================================
+	File name : responsive.css
+	Description: handle css that used for responsive behaviour of theme
+====================================*/
+/* This include ipad pro only  */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+	.special-news .slick-slider {
+		margin-top: 80px !important;
+	}
+
+	.news-style2 .content {
+		width: 54%;
+	}
+
+	.news-style2 .news-head {
+		width: 40%;
+	}
+
+	.box {
+		max-width: 90%;
+		margin: auto;
+	}
+
+	#left-special-news {
+		height: 590px;
+	}
+
+	#right-special-news {
+		height: 590px;
+	}
+
+	.breadcrumbs header {
+		padding: 30px 0;
+	}
+
+	.breadcrumbs-author {
+		width: 80%;
+		margin: auto;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		padding-right: 60px;
+	}
+
+}
+
+/* This include from ipad only  */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	.navbar-nav .menu-description {
+		border: 1px solid black;
+	}
+
+	.mainbar .section {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.main-slider {
+		margin-top: 25px;
+	}
+
+	.main-slider .slider-text h2 a {
+		font-size: 20px !important;
+	}
+
+	.news-style2 .content {
+		width: 80%;
+	}
+
+	.news-style2 .news-head {
+		float: none;
+		width: auto;
+	}
+
+	.box {
+		max-width: 90%;
+		margin: auto;
+	}
+
+	#right-special-news,
+	#left-special-news {
+		height: auto;
+	}
+
+	.small-title,
+	.title-medium,
+	.title-small,
+	.footer .single-news h4 a,
+	.news-big .single-news.main .fa-quote-left {
+		font-size: 18px !important;
+		line-height: 1.2 !important;
+	}
+
+	.news-style2 .content {
+		left: 0;
+	}
+
+	.breadcrumbs header {
+		padding: 10px 0;
+	}
+
+	.breadcrumbs-author {
+		width: 80%;
+		margin: auto;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		padding-right: 35px;
+	}
+
+}
+
+@media only screen and (max-width: 991px) {
+
+	.single-page-detail .single-news {
+		width: 90%;
+	}
+
+	.single-page-detail .wp-block-group .wp-block-group__inner-container,
+	.single-page-detail .wp-block-group.alignfull .wp-block-group__inner-container {
+		padding: 0.25em 0.6em;
+	}
+
+	.single-page-detail .single-news .news-content>.alignfull {
+		margin-left: -22.5%;
+	}
+
+
+	.single-page-detail .single-news .news-content>.alignwide {
+		margin-left: -12%;
+	}
+
+	:root {
+		--global--contentwidth: 85%;
+		--global--alignfullwidth: 146%;
+		--global--alignwidewidth: 125%;
+
+	}
+
+	.single-page-detail .single-news .news-content div {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+
+	.news-ticker .ticker-news {
+		padding-left: 10px;
+	}
+
+	.news-ticker .ticker-title {
+		padding-right: 25px;
+	}
+
+	.mainbar #blog .blog-list .news-head {
+		width: 100%;
+	}
+
+	#blog .single-news.media .content {
+		padding: 5px;
+	}
+
+	.menu-description {
+		text-decoration: underline;
+		vertical-align: super;
+		padding-left: 10px;
+	}
+
+	.small-title,
+	.title-medium,
+	.title-small,
+	.footer .single-news h4 a,
+	.news-big .single-news.main .fa-quote-left {
+		font-size: 16px !important;
+		line-height: 1.2 !important;
+	}
+
+	.box {
+		max-width: 100%;
+		margin: auto;
+	}
+
+	#adv-left {
+		text-align: center !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+
+	#adv-right {
+		text-align: center !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+
+	.main-slider .slider-text h2 a {
+		font-size: 20px !important;
+	}
+
+	.main-slider {
+		margin-top: 10px;
+	}
+
+	.mobile-nav {
+		display: block;
+	}
+
+	.slicknav_nav {
+		background: #454545c9
+	}
+
+	.slicknav_btn {
+		position: relative;
+		top: 8px;
+		margin: 0;
+		margin-bottom: 15px;
+		background: #4DB2EC;
+	}
+
+	.slicknav_menu {
+		display: block;
+		background: transparent;
+		margin-top: -25px;
+		padding: 0;
+	}
+
+	.slicknav_row a i {
+		display: none;
+	}
+
+	.logo {
+		padding-top: 0px;
+	}
+
+	.news-slider {
+		padding-top: 15px;
+	}
+
+	.main-menu .meta,
+	.main-menu #site-navigation,
+	.main-slider .meta {
+		display: none;
+	}
+
+	.main-slider .slider-content {
+		bottom: 100px;
+	}
+
+	.news-style1 .col-12:last-child .single-news {
+		margin-bottom: 0px;
+	}
+
+	.date-time,
+	.header-social {
+		float: none;
+		text-align: center;
+	}
+
+	.news-tabs .nav-main .nav-tabs {
+		position: relative;
+		top: 0;
+	}
+
+	.news-tabs .nav-main .nav-tabs {
+		margin-bottom: 15px;
+	}
+
+	.news-tabs .nav-main .nav-tabs li a {
+		padding: 10px 8px;
+	}
+
+	.cat-title {
+		font-size: 15px;
+	}
+
+	.header .nav {
+		display: block;
+	}
+
+	.header .nav li {
+		float: left;
+		margin-right: 5px;
+	}
+
+	.header .nav li:last-child {
+		margin: 0;
+	}
+
+	.header .nav li a {
+		padding: 18px 13px;
+		text-transform: capitalize;
+		font-size: 13px;
+	}
+
+	.main-menu .nav li.mega-menu .mega-column {
+		width: 31%;
+	}
+
+	.main-slider .slider-content {
+		padding: 0 20px;
+		text-align: left;
+	}
+
+	.special-news {
+		margin-top: 5px;
+	}
+
+	.tab-others {
+		margin-top: 30px;
+	}
+
+	.advertise {
+		display: none;
+	}
+
+	.news-grid .grid-news-right {
+		margin: 0;
+	}
+
+	.news-column .small-post .title-small a {
+		font-weight: 500;
+	}
+
+	.news-column .small-post .content .title-small {
+		padding-bottom: 10px;
+	}
+
+	.news-big .small-post .col-12 .single-post {
+		margin-bottom: 14px;
+		padding-bottom: 24px;
+	}
+
+	.all-news-tabs .news-head {
+		width: 100%;
+	}
+
+	.all-news-tabs .content {
+		width: 100%;
+		margin: 0;
+		margin-top: 20px;
+	}
+
+	.single-column .single-news .news-head {
+		width: 100px;
+		margin-bottom: 10px;
+	}
+
+	.main-slider .owl-controls .owl-nav {
+		bottom: 30px;
+	}
+
+	.meta-share .social-share li span {
+		display: none;
+	}
+
+	.meta-share .meta {
+		float: none;
+		margin: 10px 0 10px;
+	}
+
+	.meta-share .social-share {
+		float: none;
+	}
+
+	.blog-sidebar {
+		margin-top: 30px;
+	}
+
+	.media {
+		display: block;
+	}
+
+	.site-title a {
+		font-size: 30px !important;
+	}
+
+	.breadcrumbs h1 {
+		font-size: 20px !important;
+	}
+
+	.all-news-tabs .nav-main .nav-tabs li a,
+	.cat-title span {
+		font-size: 20px !important;
+	}
+
+	.news-style2 .content {
+		width: 90%;
+		margin: 0;
+		top: -40px;
+		left: 14px;
+	}
+
+	.news-style2 .news-head {
+		width: auto;
+	}
+
+	.news-column .small-post .single-post {
+		padding-bottom: 10px;
+	}
+
+	.single-news .content .button a {
+		display: none;
+	}
+
+	aside .news-tabs .nav-main {
+		padding-top: 0;
+	}
+
+	#right-special-news,
+	#left-special-news {
+		height: auto;
+	}
+
+	#right-special-news .slick-next,
+	#left-special-news .slick-next {
+		top: 6.5%;
+	}
+
+	#right-special-news .slick-prev,
+	#left-special-news .slick-prev {
+		top: 6.5%;
+	}
+}
+
+/** standard mobile */
+@media (max-width: 475px) {
+
+	.single-page-detail .wp-block-group .wp-block-group__inner-container,
+	.single-page-detail .wp-block-group.alignfull .wp-block-group__inner-container {
+		padding: 0.25em 0.6em;
+	}
+
+	.single-page-detail .single-news .news-content>.alignfull {
+		margin-left: -10.5%;
+	}
+
+	:root {
+		--global--alignfullwidth: 120%;
+	}
+
+	.single-page-detail .single-news .news-content div {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	.news-ticker .ticker-title {
+		padding-right: 15px;
+	}
+
+	#hrsnews.section {
+		padding-top: 12px;
+		padding-bottom: 0px;
+	}
+
+	.topbar .container,
+	.news-ticker .container,
+	#hrsnews .container {
+		max-width: 95%;
+	}
+
+	.hrsnewsbox .card-body {
+		padding: 0.4rem;
+	}
+
+	#content .row div.mb-5 {
+		margin-bottom: 0.25rem !important;
+	}
+
+	.mainbar .section {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.hero-area,
+	.hero-area .single-slider {
+		min-height: 350px;
+	}
+
+	.hero-area .slider-text.meta {
+		min-height: 190px;
+		bottom: -40px;
+	}
+
+	.hero-area .slider-text.cat {
+		height: 120px;
+	}
+
+	.hero-area .slider-text.meta .meta .date {
+		display: none;
+	}
+
+	.news-big .single-news .news-head img {
+		-webkit-transform: translate(-15px, 15px);
+		-moz-transform: translate(-15px, 15px);
+		transform: translate(-15px, 15px);
+	}
+
+	.news-big .single-news:hover .news-head img {
+		-webkit-transform: scale(1.01) translate(-15px, 15px);
+		-moz-transform: scale(1.01) translate(-15px, 15px);
+		transform: scale(1.01) translate(-15px, 15px);
+
+	}
+
+	.news-big .single-news.main .content {
+		padding: 0px 15px 10px 15px;
+	}
+
+	.news-big .single-news.main .meta {
+		display: none;
+	}
+
+	.small-title,
+	.title-medium,
+	.title-small,
+	.footer .single-news h4 a,
+	.news-big .single-news.main .fa-quote-left {
+		font-size: 14px !important;
+		line-height: 1.2 !important;
+	}
+
+	.breadcrumbs header {
+		padding: 10px 0;
+	}
+
+	.breadcrumbs-author {
+		width: 80%;
+		margin: auto;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		padding-right: 10px;
+	}
+
+	.single-page-detail .single-news {
+		width: 90%;
+
+	}
+
+	.single-page-detail .single-news .news-content>p,
+	.single-page-detail .single-news .news-content>ul:not([class]),
+	.single-page-detail .single-news .news-content>ol:not([class]),
+	.single-page-detail .single-news .news-content>pre {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	.single-page-detail .single-news .news-content>*:not(.alignfull) {
+		max-width: 96%;
+		margin: auto;
+	}
+
+	.single-page-detail .single-news .news-content {
+		max-width: 94%;
+	}
+
+	.single-page-detail .single-news .news-content>.alignwide {
+		max-width: 100%;
+		margin: auto;
+	}
+
+	.comments-form {
+		margin-left: 10px !important;
+		margin-right: 10px !important;
+	}
+
+	.header-inner .container {
+		max-width: 88%;
+	}
+
+	.layout-13.scroll-news {
+		padding: 5% 5%;
+	}
+
+	.scroll-news .single-news.main .content {
+		width: 91%;
+	}
+
+	.news-carousel .owl-controls .owl-nav div.owl-prev {
+		left: -5px;
+	}
+
+	.news-carousel .owl-controls .owl-nav div.owl-next {
+		right: -5px;
+	}
+
+	.cat-title {
+		padding-bottom: 7px;
+		padding-top: 10px;
+	}
+
+	#content::before {
+		background-size: initial;
+	}
+
+	.top-25 {
+		top: 0;
+	}
+
+	.news-grid.section {
+		background-size: cover;
+	}
+
+	.single-page-detail .single-news .news-content>p {
+		margin: inherit !important;
+	}
+
+	#main-single-page .single-page-detail .single-news.feature-image-yes {
+		top: -20px;
+	}
+
+	#main-single-page .single-page-detail .single-news .meta-share {
+		padding-left: 10px !important;
+		padding-right: 10px !important;
+	}
+
+}

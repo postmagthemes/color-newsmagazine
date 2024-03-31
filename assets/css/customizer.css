@@ -1,0 +1,12 @@
+/*==================================
+	Customizer CSS
+====================================*/ 
+
+.customize-control-lable {
+	margin: 10px 0;
+	text-decoration: underline;
+
+}
+#customize-controls h3.customize-control-lable {
+	font-size: 16px;
+}

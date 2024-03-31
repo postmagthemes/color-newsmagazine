@@ -1,0 +1,35 @@
+.filter-fields-list i{
+    margin-right: 8px;
+}
+.filter-fields-list li.sortable-item{
+    display: block;
+    background: #FFF;
+    padding: 10px;
+    margin-bottom: 2px;
+    color:#000;
+    cursor: pointer;
+}
+
+/** category tab from customizer of layoyt 2 and layout 8  ****/
+
+#customize-control-color_newsmagazine_b2_category_name_tab ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 250px;
+    display: block;
+    overflow-y: scroll;
+    border: 1px solid #eee;
+    background-color: #f5f5f5;
+}
+
+#customize-control-color_newsmagazine_b8_category_name_tab ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 250px;
+    display: block;
+    overflow-y: scroll;
+    border: 1px solid #eee;
+    background-color: #f5f5f5;
+}
+
+/** End  ****/
